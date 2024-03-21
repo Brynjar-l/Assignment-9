@@ -3,29 +3,24 @@ package is.hi.hbv202g.ass9.composite;
 import java.util.List;
 import java.util.ArrayList;
 
-public class PlusComposite implements Component{
-    private final List<Component> componentList;
+public class PlusComposite implements MathExpression {
+    private final List<MathExpression> mathExpressionList;
 
     public PlusComposite() {
-        componentList = new ArrayList<Component>();
+        mathExpressionList = new ArrayList<MathExpression>();
     }
 
-    public void add(Component component) {
-        componentList.add(component);
+    public void add(MathExpression mathExpression) {      // DUNNO MAYBE REMOVE
+        mathExpressionList.add(mathExpression);
     }
 
-    public void remove(Component component) {
-        componentList.remove(component);
-    }
-
-    public List<Component> getChildren() {
-        return componentList;
-    }
-
-
-    // TODO: WHAT DOES THIS DO
     @Override
-    public void operation() {
+    public int getResult() {
+        int toReturn = 0;
+        for (MathExpression mathExpression : mathExpressionList) {
+            toReturn += mathExpression.getResult();
+        }
 
+        return toReturn;
     }
 }
