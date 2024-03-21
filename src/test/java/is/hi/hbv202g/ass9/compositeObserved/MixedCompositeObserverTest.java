@@ -1,8 +1,5 @@
 package is.hi.hbv202g.ass9.compositeObserved;
 
-import is.hi.hbv202g.ass9.composite.MultiplyComposite;
-import is.hi.hbv202g.ass9.composite.NumberLeaf;
-import is.hi.hbv202g.ass9.composite.PlusComposite;
 import org.junit.Test;
 
 public class MixedCompositeObserverTest {

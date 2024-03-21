@@ -1,26 +1,26 @@
-package is.hi.hbv202g.ass9.composite;
+package is.hi.hbv202g.ass9.compositeObserved;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class PlusComposite implements MathExpression {
+public class MultiplyComposite implements MathExpression {
+
     private final List<MathExpression> mathExpressionList;
 
-    public PlusComposite() {
+    public MultiplyComposite() {
         mathExpressionList = new ArrayList<MathExpression>();
     }
 
-    public void add(MathExpression mathExpression) {      // DUNNO MAYBE REMOVE
+    public void add(MathExpression mathExpression) {
         mathExpressionList.add(mathExpression);
-    }
+    } // MAYBE REMOVE
 
     @Override
     public int getResult() {
-        int toReturn = 0;
+        int result = 1;
         for (MathExpression mathExpression : mathExpressionList) {
-            toReturn += mathExpression.getResult();
+            result *= mathExpression.getResult();
         }
-
-        return toReturn;
+        return result;
     }
 }

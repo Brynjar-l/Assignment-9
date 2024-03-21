@@ -1,7 +1,7 @@
-package is.hi.hbv202g.ass9.composite;
+package is.hi.hbv202g.ass9.compositeObserved;
 
-import java.util.ArrayList;
 import java.util.List;
+import java.util.ArrayList;
 
 public class PlusComposite implements MathExpression {
     private final List<MathExpression> mathExpressionList;

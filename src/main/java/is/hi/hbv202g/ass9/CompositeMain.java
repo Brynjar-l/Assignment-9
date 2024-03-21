@@ -1,6 +1,8 @@
 package is.hi.hbv202g.ass9;
 
-import is.hi.hbv202g.ass9.composite.*;
+import is.hi.hbv202g.ass9.compositeObserved.MultiplyComposite;
+import is.hi.hbv202g.ass9.compositeObserved.NumberLeaf;
+import is.hi.hbv202g.ass9.compositeObserved.PlusComposite;
 
 public class CompositeMain {
 
