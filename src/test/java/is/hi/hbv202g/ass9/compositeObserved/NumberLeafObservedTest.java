@@ -3,8 +3,6 @@ package is.hi.hbv202g.ass9.compositeObserved;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.util.Observer;
-
 import static org.junit.Assert.assertEquals;
 
 public class NumberLeafObservedTest implements Observer {
