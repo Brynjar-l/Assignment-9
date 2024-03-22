@@ -1,5 +1,7 @@
 package is.hi.hbv202g.ass9.compositeObserved;
 
+import is.hi.hbv202g.ass9.compositeObservedTemplateMethod.NumberLeaf;
+import is.hi.hbv202g.ass9.compositeObservedTemplateMethod.Observer;
 import org.junit.Before;
 import org.junit.Test;
 

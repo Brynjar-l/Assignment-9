@@ -1,6 +1,8 @@
 package is.hi.hbv202g.ass9.compositeObserved;
 
 import static org.junit.Assert.*;
+
+import is.hi.hbv202g.ass9.compositeObservedTemplateMethod.NumberLeaf;
 import org.junit.Test;
 
 public class NumberLeafTest {

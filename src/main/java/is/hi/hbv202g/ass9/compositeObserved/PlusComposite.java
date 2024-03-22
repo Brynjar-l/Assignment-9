@@ -1,7 +1,7 @@
 package is.hi.hbv202g.ass9.compositeObserved;
 
-import java.util.List;
 import java.util.ArrayList;
+import java.util.List;
 
 public class PlusComposite implements MathExpression, Observer {
     private final List<MathExpression> mathExpressionList;
@@ -12,7 +12,7 @@ public class PlusComposite implements MathExpression, Observer {
         mathExpressionList = new ArrayList<MathExpression>();
     }
 
-    public void add(MathExpression mathExpression) {      // DUNNO MAYBE REMOVE
+    public void add(MathExpression mathExpression) {
         mathExpressionList.add(mathExpression);
     }
 

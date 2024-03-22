@@ -13,7 +13,7 @@ public class MultiplyComposite implements MathExpression, Observer {
 
     public void add(MathExpression mathExpression) {
         mathExpressionList.add(mathExpression);
-    } // MAYBE REMOVE
+    }
 
     @Override
     public int getResult() {
