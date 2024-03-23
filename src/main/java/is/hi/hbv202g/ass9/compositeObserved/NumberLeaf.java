@@ -1,12 +1,10 @@
 package is.hi.hbv202g.ass9.compositeObserved;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class NumberLeaf extends Observable implements MathExpression {
 
     private int number;
-    private final List<Observer> observers;
 
     public NumberLeaf(int number) {
         this.number = number;
